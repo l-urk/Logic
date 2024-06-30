@@ -180,7 +180,6 @@ rschrmlst = lk~kl~bx~kb~si~qm~
 rsuserlst = lkira~killy~akira~ucrkr~danny~robot~ghost~
 '			becca~bbrue~tnkgr~zaraa~0clue~naomi~addrl~
 '			elonm~hilda~mastw~rockj~mants~opcgt~qanon~
-'
 '			billg~biebr~izzyb~kbosi~dylan~tarvr~qflux~
 '			joker~crjck~loopr~kirai~qmich~amosc~anona~
 '			aiden~simon~nickc~round~hoodi~egypt~masks~
@@ -347,28 +346,6 @@ the users share windows		!	%lsd%\windows
 the users share pg64bit		!	%lsd%\programs\64 bit
 the users share pg32bit		!	%lsd%\programs\32 bit
 the users share pgmdata		!	%lsd%\programs\data			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 'i am perfect
 '-----------beb, jag took, stop to a blantantly sharp and - lol, decent. really, seriosuly? c'mon...
