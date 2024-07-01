@@ -178,7 +178,7 @@ logic sltions	none noted to date
 'reservations
 rsuseradm = light
 rschrmlst = lk~kl~bx~kb~si~qm~
-rsuserlst = lkira~killy~akira~ucrkr~danny~robot~ghost~
+rsuserlst = lkira~killy~akira~ucrkr~danny~robot~ghost~kbshi
 '			becca~bbrue~tnkgr~zaraa~0clue~naomi~addrl~
 '			elonm~hilda~mastw~rockj~mants~opcgt~qanon~
 '			billg~biebr~izzyb~kbosi~dylan~tarvr~qflux~
