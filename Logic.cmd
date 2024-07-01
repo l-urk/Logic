@@ -176,6 +176,7 @@ logic cnflcts	none noted to date
 logic sltions	none noted to date
 
 'reservations
+rsuseradm = light
 rschrmlst = lk~kl~bx~kb~si~qm~
 rsuserlst = lkira~killy~akira~ucrkr~danny~robot~ghost~
 '			becca~bbrue~tnkgr~zaraa~0clue~naomi~addrl~
