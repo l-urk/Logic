@@ -11,7 +11,7 @@
 		'query-formatters-specified
 			iste	(is the) 		attrib query				x	y	?
 			dote	(do the) 		actionable				x	z	?
-			wrte	(where the) 	location query					x 	d	?
+			wrte	(where the) 		location query				x 	d	?
 			arte	(are the)		multi-attrib query			xs	y	?
 			cnte	(can the)		action query				x	z	?
 				logic 	check 	if 	specified dimensions has atrtribute
