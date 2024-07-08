@@ -1,3 +1,10 @@
-The command logic is a set of rules and procedures that determine how the computer system responds to user input and commands. 
-It is responsible for interpreting user commands and executing the appropriate actions to fulfill the user's instructions. 
-This logic is integrated into the system's operating software and is executed whenever a user interacts with the system through a command-line interface.
+## Chain.cmd
+``An example logic chain for executing an admin procedure in LSDOS``
+
+## LSDOS.cmd
+**(Live System Disk Operating System)**
+
+``The initial setup file for simulating LSDOS.``
+
+## Logic.cmd
+``The command logic (Logic.cmd) comprises rules and procedures for how the computer system responds to user commands. It interprets and executes user instructions via the command-line interface, integrated into the system's operating software.``
