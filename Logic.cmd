@@ -9,17 +9,17 @@
 	'general-query
 		chek
 		'query-formatters-specified
-			iste	(is the) 		attrib query			x	y	?
+			iste	(is the) 		attrib query				x	y	?
 			dote	(do the) 		actionable				x	z	?
-			wrte	(where the) 	location query			x 	d	?
-			arte	(are the)		multi-attrib query		xs	y	?
-			cnte	(can the)		action query			x	z	?
+			wrte	(where the) 	location query					x 	d	?
+			arte	(are the)		multi-attrib query			xs	y	?
+			cnte	(can the)		action query				x	z	?
 				logic 	check 	if 	specified dimensions has atrtribute
 				syntax	chek ;;te ;* ;^
 		'query-formatters-self
 			aryu	(are you)		self query				y		?
 				logic	check	if	self has specified attribute	
-			cnyu	(can you)		self attrib query		z		?
+			cnyu	(can you)		self attrib query			z		?
 				logic	check	if 	self can perform specified actio 
 				syntax chek ;;yu ;^	
 		'operations
@@ -234,88 +234,88 @@ logic form starts with a question
 
 
 chek aryu admn					!
-'	yes							!
+'	yes					!
 
 chek iste u0 admn				?
-'	yes							!
+'	yes					!
 
-chek arte ;alusr admn			?
+chek arte ;alusr admn				?
 '	nos
 
-chek cnyu make u0 admn -v		?
-'	con							!
+chek cnyu make u0 admn -v			?
+'	con					!
 '	u0 is already admin			!
 
-chek dote u0 have replit.txt	?
-!	yes							!
+chek dote u0 have replit.txt			?
+!	yes					!
 
-chek dote u0 have replit.txt -v	?
-!	yes							!
+chek dote u0 have replit.txt -v			?
+!	yes					!
 '	%lsd%\users\user0\replit.txt!
 
-chck wrte u0 lives at			?
+chck wrte u0 lives at				?
 '	%lsd%\users\user0			!
 
-chck wrte u0 lives at -v		?
-'	u0 lives at					!
+chck wrte u0 lives at -v			?
+'	u0 lives at				!
 '	%lsd%\users\user0			!
 
 
 [
-check do the users admins	?
+check do the users admins			?
 "nen"						!
-"not entirely are all users admins"	!
-"all users are not entirely admins"	!
-"entirely all users are not admins" !									
+"not entirely are all users admins"		!
+"all users are not entirely admins"		!
+"entirely all users are not admins"		!									
 ]
 
 [
 enbl nwte users replit "td"?
-"enable spec users replit	!
-! user td replit enabled	!
+"enable spec users replit			!
+! user td replit enable				!
 ]
 
 [
 enbl atte users replit "td"?
-"enable spec users replit	!
-! user td replit enabled	!
+"enable spec users replit			!
+! user td replit enabled			!
 ]
 
 [
-check do the users replit	?
+check do the users replit			?
 "noa"
-"not all users inti-replit	!
-user l_ replit initi nos	!
-user si replit initi nos	!
-user td replit initi yes	!
+"not all users inti-replit			!
+user l_ replit initi nos			!
+user si replit initi nos			!
+user td replit initi yes			!
 ]
 
 dsbl nwte replit users 
 "disabling replit all users"!
 
 [
-check do the users replit	?
+check do the users replit			?
 "nos"
-"no users have inti-replit	!
-user l_ replit initi nos	!
-user si replit initi nos	!
-user td replit initi nos	!
+"no users have inti-replit			!
+user l_ replit initi nos			!
+user si replit initi nos			!
+user td replit initi nos			!
 ]
 
 enbl replit all users
 [
-check do the users replit	?
+check do the users replit			?
 "yes"
-"yes all users inti-replit	!
-user l_ replit initi yes	!
-user si replit initi yes	!
-user td replit initi yes	!
+"yes all users inti-replit			!
+user l_ replit initi yes			!
+user si replit initi yes			!
+user td replit initi yes			!
 ]
 
 
 [
-check do the users ;badstr	?
-"did lusr just try to brkme"!?
+check do the users ;badstr			?
+"did lusr just try to brkme"			!?
 reclarify | unsure | nevermind
 	reclarify
 		check do the users ;prtmx
@@ -326,18 +326,18 @@ reclarify | unsure | nevermind
 		:break
 ]
 
-check do the users ;unkwn	?
-"possibly though unnoted"	!
-"would you like to check"	!?
+check do the users ;unkwn			?
+"possibly though unnoted"			!
+"would you like to check"			!?
 
-check do the users neglit	?
+check do the users neglit			?
 "nen"						!
-"not entirely are all users neglit"	!
-"all users are not entirely neglit"	!
-"entirely all users are not neglit" !
+"not entirely are all users neglit"		!
+"all users are not entirely neglit"		!
+"entirely all users are not neglit"		!
 
 check where the users share	?
-chk whte all share			?
+chk whte all share		?
 the users share roaming		!	%appdata%
 the users share upublic		!	%users%\public
 the users share talkdir		!	%lsd%\talkdir
