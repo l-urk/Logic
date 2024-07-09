@@ -1,5 +1,3 @@
-'reserved_system-threads
-reserved_system_threads = 
 a0~az
 b0~bz
 c0~cz
