@@ -128,12 +128,14 @@ defi
 		!\		=	unct	=	uncertain return of query
 		%;%		=	esys	=	defined variable encloser system
 		!;!		=	epgm	=	defined variable encloser local
+		|		=	pipe	=	data transfer intiator
 		@		=	aete	=	dimension defined location initiator
 		~		=	sdim	=	string delimiter (dimension to dimension)
-		-		=	takf	=	tak-flag
+		-		=	takf	=	tak-flag (pre-flag definator)
 		-;		=	taku	=	tak-flag undefined
 		00~zz		=	thdc	=	thread chain
 		randm;		=	rand	=	random ; digit number
+		;unkwn		=	unkn	=	undefined long
 		!time!		=	time	=	current %time% as defined by system to local
 		!date!		=	date	=	current %date% as defined by system to local
 		prtmax		=	pmax	=	predelimeration evaluation so return all
@@ -198,59 +200,59 @@ enbl user u0 replit afte f0			!
 "enable spec users replit			!
 ! user u0 replit enabled			!
 
-check do the users replit			?
-"noa"
+enbl user u0 replit atte 00:00:0.0 -0		!
+@~00:00:0.0					!\
+"enable spec users replit			!
+! user u0 replit enabled			!
+
+chek dote allu replit -v			?
+"noa"						!
 "not all users inti-replit			!
 user l_ replit initi nos			!
 user si replit initi nos			!
 user td replit initi yes			!
+...
 
-dsbl nwte replit users 
-"disabling replit all users"!
+dsbl allu replit				!
+"disabling replit all users"			!
 
-[
-check do the users replit			?
+chek dote usrs l_ si td replit			?
 "nos"
 "no users have inti-replit			!
 user l_ replit initi nos			!
 user si replit initi nos			!
 user td replit initi nos			!
-]
 
-enbl replit all users
-[
-check do the users replit			?
+enbl allu replit				!
+chek dote usrs l_ si td replit			?
 "yes"
 "yes all users inti-replit			!
 user l_ replit initi yes			!
 user si replit initi yes			!
 user td replit initi yes			!
-]
 
-[
-check do the users ;badstr			?
+chek dote allu ;badstr				?
 "did lusr just try to brkme"			!?
-reclarify | unsure | nevermind
+reclarify _ unsure _ nevermind			!\
 	reclarify
-		check do the users ;prtmx
+		check do the allu prntmx
 		:return
 	unsure
 		"you should check for bugs"	!
 	nevermind
 		:break
-]
 
-check do the users ;unkwn			?
+chek dote allu ;unkwn				?
 "possibly though unnoted"			!
 "would you like to check"			!?
 
-check do the users neglit			?
+chek dote allu neglit				?
 "nen"						!
 "not entirely are all users neglit"		!
 "all users are not entirely neglit"		!
 "entirely all users are not neglit"		!
 
-check where the users share	?
+chek wrte sysm share		?
 chk whte all share		?
 the users share roaming		!	%appdata%
 the users share upublic		!	%users%\public\
