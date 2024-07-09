@@ -193,19 +193,17 @@ enbl user u0 replit nwte			!
 "enable spec users replit			!
 ! user u0 replit enabled			!
 
-enbl user u0 replit atte f0			!
+enbl user u0 replit afte f0			!
 @~f0						!\
 "enable spec users replit			!
 ! user u0 replit enabled			!
 
-[
 check do the users replit			?
 "noa"
 "not all users inti-replit			!
 user l_ replit initi nos			!
 user si replit initi nos			!
 user td replit initi yes			!
-]
 
 dsbl nwte replit users 
 "disabling replit all users"!
