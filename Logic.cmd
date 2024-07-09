@@ -20,7 +20,7 @@
 			aryu	(are you)		self query				y		?
 				logic	check	if	self has specified attribute	
 			cnyu	(can you)		self attrib query			z		?
-				logic	check	if 	self can perform specified actio 
+				logic	check	if 	self can perform specified actiom 
 				syntax chek ;;yu ;^	
 		'operations
 		exec
@@ -96,19 +96,25 @@ defi
 		l live
 	'functions
 		df		=	defi	=	defenition
-		nw		=	nwte	=	now the
+		sp		=	spec	=	specified dimension
+	'command-initiators
+		in		=	init	=	initiate command
+		ch		=	chek	=	check query
+		en		=	enbl	=	enable a function
+		di		=	dsbl	=	disable a fucntion
+		ex		=	exec	=	execute program
+	'stasus-operands
+		nw		=	nwte	=	now (the)
 		at		=	atte	=	at the
 		af		=	afte	=	after the
-	'operators	
+	'difone-operator
+		t0		=	time	=	%time%
 		si		=	slnt	=	silent
 		du		=	dupl	=	duplicate
-		t0		=	time	=	%time%
-		tm		=	time	=	%time%
 		vb		=	vrbs	=	verbosity
-		yu		=	your	=	user to system attribution delimeration slice
 	'perminant	
 		;		=	undf	=	(un)defined
-		?		=	qury	=	query
+		?		=	qury	=	query (general)
 		*		=	wldc	=	all in location
 		^		=	leng	=	amount
 		;?		=	undu	=	undefined unkown
@@ -119,18 +125,22 @@ defi
 		%		=	perc	=	percent
 		!		=	bang	=	defines the define multiplied negatively
 		!=		=	nteq	=	defined operatior junction query as not equal
+		!\		=	unct	=	uncertain return of query
 		%;%		=	esys	=	defined variable encloser system
 		!;!		=	epgm	=	defined variable encloser local
+		@		=	aete	=	dimension defined location initiator
 		~		=	sdim	=	string delimiter (dimension to dimension)
 		-		=	takf	=	tak-flag
 		-;		=	taku	=	tak-flag undefined
-		00~zz	=	thdc	=	thread chain
-		randm;	=	rand	=	random ; digit number
-		!time!	=	time	=	current %time% as defined by system to local
-		!date!	=	date	=	current %date% as defined by system	to local
-		prtmax	=	pmax	=	predelimeration evaluation so return all
+		00~zz		=	thdc	=	thread chain
+		randm;		=	rand	=	random ; digit number
+		!time!		=	time	=	current %time% as defined by system to local
+		!date!		=	date	=	current %date% as defined by system to local
+		prtmax		=	pmax	=	predelimeration evaluation so return all
 	'user levels 
-		user		=	user	=	the user	defined privilege token level low
+		your		=	your	=	the auto	a virtual system user to system attribute interaction system
+		user		=	user	=	the user	defined privilege token level low by default
+		users		=	usrs	=	mlt users	defined multiple users with privilege token level low by default
 		allusers	=	allu	=	all users	defined by charm 	attribute in space by space sequence
 		admin		=	admn	=	the admin	defined privilege token level mid
 		alladmins	=	alla	=	all admins 	defined by admin 	attribute in space by space sequence
@@ -147,15 +157,14 @@ logic sltions	none noted to date
 logic form starts with a question
 
 'examples
-
-chek aryu admn					!
+chek aryu admn					?
 '	yes					!
 
 chek iste u0 admn				?
 '	yes					!
 
 chek arte ;alusr admn				?
-'	nos
+'	nos					!
 
 chek cnyu make u0 admn -v			?
 '	con					!
@@ -166,35 +175,28 @@ chek dote u0 have replit.txt			?
 
 chek dote u0 have replit.txt -v			?
 !	yes					!
-'	%lsd%\users\user0\replit.txt!
+'	%lsd%\users\user0\replit.txt		!
 
-chck wrte u0 lives at				?
-'	%lsd%\users\user0			!
+chek wrte u0 lives at				?
+'	%lsd%\users\user0\			!
 
-chck wrte u0 lives at -v			?
+chek wrte u0 lives at -v			?
 '	u0 lives at				!
-'	%lsd%\users\user0			!
+'	%lsd%\users\user0\			!
 
-
-[
 check do the users admins			?
 "nen"						!
-"not entirely are all users admins"		!
-"all users are not entirely admins"		!
-"entirely all users are not admins"		!									
-]
+"not entirely are all users admins"		!\
+"entirely all users are not admins"		!\
 
-[
-enbl nwte users replit "td"?
+enbl user u0 replit nwte			!
 "enable spec users replit			!
-! user td replit enable				!
-]
+! user u0 replit enabled			!
 
-[
-enbl atte users replit "td"?
+enbl user u0 replit atte f0			!
+@~f0						!\
 "enable spec users replit			!
-! user td replit enabled			!
-]
+! user u0 replit enabled			!
 
 [
 check do the users replit			?
