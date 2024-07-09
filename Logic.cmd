@@ -230,8 +230,6 @@ logic form starts with a question
 
 'examples
 
-
-
 chek aryu admn					!
 '	yes					!
 
@@ -310,7 +308,6 @@ user l_ replit initi yes			!
 user si replit initi yes			!
 user td replit initi yes			!
 ]
-
 
 [
 check do the users ;badstr			?
