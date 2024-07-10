@@ -5,7 +5,6 @@ The LSD disks software will function as such :
 The main drive will be chosen by letter during intial setup. The default main drive letter is "L:".
 Inputing and executing with the environment variable %LSD% will return the current main drive letter.
 The directory structure for the main drive is as follows:
-``
 L:\
 L:\Live\
 L:\Live\System32\
@@ -18,4 +17,3 @@ L:\Users\Light\AppData\
 L:\Users\Light\AppData\Local\
 L:\Users\Light\AppData\LocalLow\
 L:\Users\Light\AppData\Roaming\
-``
