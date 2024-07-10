@@ -61,30 +61,28 @@
 	"	vrbs	(-v)		returns printout at a specified verbosity level defined from 0 to z, unspecified for maximum
 			syntax			;;;; ;;;; -v ;
 'system-defines
-defi
-	'variable
-		a (un)defined startplace
-		b (un)defined endplace
-		d (un)defined data or directory location
-		i (un)defined information
-	'definition
-		c alphabetical
-		e alphanumeric
-		f flag9---
-		g genertic
-		h help
-		i information
-		j justice
-		k knowledge
-		m memory
-		n numeric
-		o operator
-		v variable
-	'demension
-		x (un)defined demension
-		y (un)defined attribute
-		z (un)defined action
-		t (un)defined time
+'variable
+	a (un)defined startplace
+	b (un)defined endplace
+	c alphabetical
+	d (un)defined data or directory location
+'definition
+	e alphanumeric
+	f flag
+	g generic
+	h help
+	i information
+	j justice
+	k knowledge
+	m memory
+	n numeric
+	o operator
+	v variable
+'demension
+	x (un)defined demension
+	y (un)defined attribute
+	z (un)defined action
+	t (un)defined time
 	'return
 		p prinout
 		q quantization
@@ -140,7 +138,7 @@ defi
 		!date!		=	date	=	current %date% as defined by system to local
 		prtmax		=	pmax	=	predelimeration evaluation so return all
 	'user levels 
-		your		=	your	=	the auto	a virtual system user to system attribute interaction system
+		your		=	your	=	the auto	virtual system user to system attribute interaction system
 		user		=	user	=	the user	defined privilege token level low by default
 		users		=	usrs	=	mlt users	defined multiple users with privilege token level low by default
 		allusers	=	allu	=	all users	defined by charm 	attribute in space by space sequence
@@ -151,19 +149,21 @@ defi
 		liveam		=	live	=	the master	defined privilege token level all
 		replit		=	rplt	=	yes
 		neglit		=	nglt	=	non
-
-'logic-notes
+'
+the user shares userpfl		!	L:\users\light\
+the user shares appdata		!	L:\users\light\appdata\
+the user shares desktop		!	L:\users\light\desktop\
+the users share upublic		!	L:\users\public\
+the sysm shares livesys		!	L:\live\
+the sysm shares talkdir		!	L:\live\talk\
+the sysm shares windows		!	L:\windows\
+the sysm shares pg32bit		!	L:\programs\32 bit\
+the sysm shares pg64bit		!	L:\programs\64 bit\
+the sysm shares pgmdata		!	L:\programs\data\
+the sysm shares curtime		!	time
+the sysm shares curdate		!	date
+the users share systemu		!	whoami
+the users share sysinfo		!	systeminfo
+'
 logic cnflcts	none noted to date
 logic sltions	none noted to date
-
-chek wrte sysm share		?
-chk whte all share		?
-the users share roaming		!	%appdata%
-the users share upublic		!	%users%\public\
-the users share talkdir		!	%lsd%\talkdir\
-the users share systemn		!	!system-name!
-the users share systemo		!	!system-operating-system!
-the users share windows		!	%lsd%\windows\
-the users share pg32bit		!	%lsd%\programs\32 bit\
-the users share pg64bit		!	%lsd%\programs\64 bit\
-the users share pgmdata		!	%lsd%\programs\data\
