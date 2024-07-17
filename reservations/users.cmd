@@ -12,7 +12,7 @@ kbshi~nebpt~ghost~machi~papv2~armag~angel~
 lwlit~lkira~killy~akira~ucrkr~danny~robot~
 ashly~bbrue~tnkgr~zaraa~0clue~naomi~addrl~
 elonm~hilda~mastw~rockj~mants~opcgt~qanon~
-billg~biebr~izzyb~kbosi~dylan~tarvr~qflux~
+billg~biebr~izzyb~cyott~dylan~tarvr~qflux~
 joker~crjck~loopr~kirai~qmich~amosc~anona~
 aiden~simon~nickc~round~hoodi~egypt~masks~
 gunns~jamie~laurl~keems~bldie~sankn~tchld~
