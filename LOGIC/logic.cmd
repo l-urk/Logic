@@ -8,7 +8,7 @@ ex		=	exec	=	execute program
 nw		=	nwte	=	now (the)
 at		=	atte	=	at the
 af		=	afte	=	after the
-t0		=	time	=	%time%
+t0		=	time	=	time
 si		=	slnt	=	silent
 du		=	dupl	=	duplicate
 vb		=	vrbs	=	verbosity	
@@ -32,7 +32,7 @@ _		=	undr	=	variable namespace delimerating sepeator
 ~		=	sdim	=	string delimiter (dimension to dimension)
 -		=	takf	=	tak-flag (pre-flag definator)
 -;		=	taku	=	tak-flag undefined
-00~zz		=	thdc	=	thread chain
+a0~zz		=	thdc	=	thread chain
 randm;		=	rand	=	random ; digit number
 ;unkwn		=	unkn	=	undefined long
 !time!		=	time	=	current %time% as defined by system to local
@@ -63,7 +63,6 @@ chek
 	cnte	(can the)		action query		x z	?
 		logic 			check if specified dimensions has atrtribute
 		syntax			chek ;;te ;* ;^
-
 	aryu	(are you)		self query		y	?
 		logic			check if self has specified attribute	
 	cnyu	(can you)		self attrib query	z	?
@@ -72,7 +71,6 @@ chek
 exec
 	logic 	execute a program
 	syntax	exec i:\;^\;^.;^
-
 	nwte	(now)			do x now
 	logic				run the shell command at end of current thread
 	syntax				;;;; nwte -;
@@ -102,5 +100,3 @@ exec
 		vrbs
 		vrbs	(-v)		returns printout at a specified verbosity level defined from 0 to z, unspecified for maximum
 			syntax			;;;; ;;;; -v ;
-logic cnflcts = none noted to date
-logic sltions = none noted to date
