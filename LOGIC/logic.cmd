@@ -1,28 +1,3 @@
-a start
-b end
-c alphanumeric
-d directory
-e execute
-f flag
-g generic
-h help
-i information
-j jump
-k knowledge
-l live
-m memory
-n numeric
-o operator
-p print
-q quantum
-r return
-s system
-t time
-u user
-v variable
-x demension
-y axis
-z depth
 df		=	defi	=	defenition
 sp		=	spec	=	specified dimension
 in		=	init	=	initiate command
