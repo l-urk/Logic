@@ -6,8 +6,8 @@ the sysm shares livesys  !	L:\live\
 the sysm shares livesys  !	L:\live\system32\
 the sysm shares drivers  !  L:\live\system32\drivers
 the sysm shares talkdir  !	L:\live\talk\
-the sysm shares pgmdata  !	L:\programs\data\
-the sysm shares pg32bit  !	L:\programs\32 bit\
+the sysm shares pgmdata  !  L:\programs\data\
+the sysm shares pg32bit  !  L:\programs\32 bit\
 the sysm shares pg64bit  !	L:\programs\64 bit\
 the sysm shares unixlib  !	L:\unixlib\
 the sysm shares windows  !	L:\windows\
