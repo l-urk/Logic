@@ -11,12 +11,12 @@ the sysm shares pg32bit  !	L:\programs\32 bit\
 the sysm shares pg64bit  !	L:\programs\64 bit\
 the sysm shares unixlib  !	L:\unixlib\
 the sysm shares windows  !	L:\windows\
-exe sysm shares macaddr  !  getmac
-exe sysm shares hostnam  !  hostname
-exe sysm shares ipconfi  !  ipconfig
-exe sysm shares netstat  !  netstat
-exe sysm shares sysinfo  !	systeminfo
-exe sysm shares version  !  ver
-exe user shares curdate  !	date
-exe user shares curtime  !	time
-exe user shares wsystem  !	whoami
+exe sysm shares macaddr  getmac
+exe sysm shares hostnam  hostname
+exe sysm shares ipconfi  ipconfig
+exe sysm shares nstatus  netstat
+exe sysm shares sysinfo  systeminfo
+exe sysm shares version  ver
+exe user shares curdate  date
+exe user shares curtime  time
+exe user shares wsystem  whoami
