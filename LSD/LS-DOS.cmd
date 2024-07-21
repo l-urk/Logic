@@ -5,6 +5,7 @@ All default LS-DOS commands operate as normal.
 Navigation through LS-DOS is command executed.
 Directory handles case-sensitivty insensitive.
 Operates at base DOS with UNIX funcationality.
+Initial setup requires user and password lock.
 UNIX control functions can operate integrally.
 UNIX files and scripts operate in a subsystem.
 The UNIX subsystem virtualizes at file launch.
@@ -14,7 +15,6 @@ The main thread is for control functions only.
 The main thread always operates at root level.
 Unspecified UNIX threads hosted by DOS thread.
 Embedded UNIX instances operate as per normal.
-Initial setup requires user and password lock.
 The LSD (Live System Disk) drive and software:
 Loading LS-DOS requires a virtual or new disk.
 The LS-DOS main disk is chosen at intial boot.
