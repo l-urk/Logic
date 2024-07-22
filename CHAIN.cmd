@@ -1,4 +1,4 @@
-chek iste user admn?
+chek iste user u0 admn
 |		|
 nos\		|
 |		yes\
