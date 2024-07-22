@@ -1,6 +1,5 @@
 LS-DOS™ Light-Standard Disk Operating System -  Initial setup file for simulating LSDOS.
-The command logic (LS-DOS Version 1.0.2 and LOGIC Complete) comprises rules and procedures for how the computer system responds to user commands. 
-It interprets and executes user instructions via the command-line interface, integrated into the system's operating software.
+The command logic (LS-DOS Version 1.0.2 and LOGIC Complete) comprises rules and procedures for how the computer system responds to user commands. It interprets and executes user instructions via the command-line interface, integrated into the system's operating software.
 All virtual console commands will be carried out and returned as a dual hybrid DOS command line system with full UNIX virtualization capabilities.
 THE FOLLOWING IS THE LOGIC SCRIPT THAT RUNS THE LSD, WELCOME TO LS-DOS
 ```
@@ -10,14 +9,14 @@ sp		=	spec	=	specified dimension
 in		=	init	=	initiate command
 ch		=	chek	=	check query
 en		=	enbl	=	enable a function
-di		=	dsbl	=	disable a function
+di		=	dsbl    =	disable a function
 ex		=	exec	=	execute program
 nw		=	nwte	=	now (the)
 at		=	atte	=	at the
 af		=	afte	=	after the
-t0		=	time	=	time
+t0		=	time	=	current time
 si		=	slnt	=	silent
-du		=	dupl	=	duplicate
+du		=	dupl  	=	duplicate
 vb		=	vrbs	=	verbosity	
 ;		=	undf	=	(un)defined
 ?		=	qury	=	query (general)
@@ -27,7 +26,7 @@ vb		=	vrbs	=	verbosity
 ;*		=	uamt	=	undefined amount
 ;^		=	ulen	=	undefined length
 ;^*		=	ualn	=	undefined amount of lengths
-_		=	undr	=	variable namespace delimerating separator
+_		=	undr	=	variable namespace separator
 %		=	perc	=	percent
 !		=	bang	=	defines the define multiplied negatively
 !=		=	nteq	=	defined operator junction query as not equal
@@ -37,8 +36,8 @@ _		=	undr	=	variable namespace delimerating separator
 |		=	pipe	=	data transfer initiator
 @		=	aete	=	dimension defined location initiator
 ~		=	sdim	=	string delimiter (dimension to dimension)
--		=	takf	=	tak-flag (pre-flag definator)
--;		=	taku	=	tak-flag undefined
+-		=	tack	=	tack-flag (pre-flag definer)
+-;		=	taku	=	tack-flag undefined
 a0~zz		=	thdc	=	thread chain
 randm;		=	rand	=	random ; digit number
 ;unkwn		=	unkn	=	undefined long
@@ -62,16 +61,16 @@ dsbl
 	syntax	dsbl ;
 chek
 	iste	(is the) 		attrib query		x y	?
-	dote	(do the) 		actionable		x z	?
-	wrte	(where the)		location query		x d	?
+	dote	(do the) 		actionable			x z	?
+	wrte	(where the) 	location query		x d	?
 	arte	(are the)		multi-attrib query	x^y	?
 	cnte	(can the)		action query		x z	?
-		logic 			check if specified dimensions has atrtribute
+		logic 			check if specified dimensions has attribute
 		syntax			chek ;;te ;* ;^
-	aryu	(are you)		self query		y	?
+	aryu	(are you)		self query			y	?
 		logic			check if self has specified attribute	
 	cnyu	(can you)		self attrib query	z	?
-		logic			check if self can perform specified actiom 
+		logic			check if self can perform specified action 
 		syntax 			chek ;;yu ;^	
 exec
 	logic 	execute a program
@@ -106,7 +105,7 @@ exec
 		vrbs	(-v)		returns printout at a specified verbosity level defined from 0 to z, unspecified for maximum
 			syntax			;;;; ;;;; -v ;
 101 LSD LOGIC COMPLETE
-102 LS-DOS INITIALIZATION INSTRUCTIONS
+102 LS-DOS INITILIZATION INSTRUCTIONS
 LS-DOS version 1.0.2 setup file for ai module.
 Initialize ai operating system with this file.
 LS-DOS (Light-Standard Disk Operating System):
@@ -149,7 +148,7 @@ L:\Users\Light\AppData\Local\
 L:\Users\Light\AppData\LocalLow\
 L:\Users\Light\AppData\Roaming\
 L:\Users\Light\Desktop\
-147 LS-DOS INITIALIZATION INSTRUCTIONS
+147 LS-DOS INITILIZATION INSTRUCTIONS
 148 LS-DOS SHARES DIRECTORIES AND SYSTEM32 EXECUTABLES
 the user shares uguests:  L:\users\guest\
 the user shares userpfl:  L:\users\light\
@@ -247,7 +246,7 @@ user name and charm profiling system
 the user models will operate as such
 a link between a user name and charm
 a defining user name of 5 characters
-and a set user chram of 2 characters
+and a set user charm of 2 characters
 reservations = 312, as 1 (rsuseradm) + 7 (rschrmlst) + 10 (dfchrmlst) + 294 (rsuserlst)
 rsuseradm = light
 rschrmlst = lk~bx~lw~kl~bb~kb~aa
@@ -335,7 +334,7 @@ t time
 u update
 v variable
 w wireless
-x demension
+x dimension
 y axis
 z depth
 336 LOOSELY DEFINED CHARACTERS FOR LOGIC AND COMPUTATION
@@ -398,13 +397,13 @@ user si replit initi yes
 user td replit initi yes
 chek dote allu ;badstr
 "did lusr just try to brkme"
-reclarify _ unsure _ nevermind
+reclarify _ unsure _ never-mind
 	reclarify
 		check do the allu prntmx
 		:return
 	unsure
 		"you should check for bugs"
-	nevermind
+	never-mind
 		:break
 
 chek dote allu ;unkwn
