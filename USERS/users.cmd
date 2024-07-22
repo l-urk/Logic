@@ -3,7 +3,7 @@ the user models will operate as such
 a link between a user name and charm
 a defining user name of 5 characters
 and a set user chram of 2 characters
-reservations : 312 as 1 (rsuseradm) + 7 (rschrmlst) + 10 (dfchrmlst) + 294 (rsuserlst)
+reservations = 312, as 1 (rsuseradm) + 7 (rschrmlst) + 10 (dfchrmlst) + 294 (rsuserlst)
 rsuseradm = light
 rschrmlst = lk~bx~lw~kl~bb~kb~aa
 dfchrmlst = u0~u9
