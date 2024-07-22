@@ -2,35 +2,33 @@ logic form starts with a question
 
 'examples
 chek aryu admn
-'	yes
+'	;;s
 
-chek iste u0 admn
-'	yes
+chek iste user u; admn
+'	;;s
 
-chek arte ;alusr admn
-'	nos
+chek arte usrs u;~u; admn
+'	;;s
 
-chek cnyu make u0 admn -v
-'	con
-'	u0 is already admin
+chek cnyu make user u0 admn
+'	;;;
 
-chek dote u0 have replit.txt
+chek dste u0 have ;^;.txt
+!	;;s
+
+chek dote ug have example.txt -v
 !	yes
-
-chek dote u0 have replit.txt -v
-!	yes
-'	%lsd%\users\user0\replit.txt
+'	L:\Users\Guest\guest.txt
 
 chek wrte u0 lives at
-'	%lsd%\users\user0\
+'	L:\Users\User0\
 
 chek wrte u0 lives at -v
 '	u0 lives at
-'	%lsd%\users\user0\
+'	L:\users\User0\
 
-check do the users admins
+chek dote usrs admn
 "nen"
-"not entirely are all users admins"
 "entirely all users are not admins"
 
 enbl user u0 replit nwte
