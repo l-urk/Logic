@@ -62,13 +62,13 @@ dsbl
 	syntax	dsbl ;
 chek
 	iste	(is the) 		attrib query		x y	?
-	dote	(do the) 		actionable			x z	?
-	wrte	(where the) 	location query		x d	?
+	dote	(do the) 		actionable		x z	?
+	wrte	(where the)		location query		x d	?
 	arte	(are the)		multi-attrib query	x^y	?
 	cnte	(can the)		action query		x z	?
 		logic 			check if specified dimensions has atrtribute
 		syntax			chek ;;te ;* ;^
-	aryu	(are you)		self query			y	?
+	aryu	(are you)		self query		y	?
 		logic			check if self has specified attribute	
 	cnyu	(can you)		self attrib query	z	?
 		logic			check if self can perform specified actiom 
@@ -106,14 +106,14 @@ exec
 		vrbs	(-v)		returns printout at a specified verbosity level defined from 0 to z, unspecified for maximum
 			syntax			;;;; ;;;; -v ;
 101 LSD LOGIC COMPLETE
-102 LS-DOS INITILIZATION INSTRUCTIONS
-LS-DOS version 1.0.2 setup instruction for ai.
-Initialize operating system with the this file.
+102 LS-DOS INITIALIZATION INSTRUCTIONS
+LS-DOS version 1.0.2 setup file for ai module.
+Initialize ai operating system with this file.
 LS-DOS (Light-Standard Disk Operating System):
 All default LS-DOS commands operate as normal.
 Navigation through LS-DOS is command executed.
-Directory handles case-sensitivity insensitive.
-Operates at base DOS with UNIX functionality.
+Directory handle case-sensitivity insensitive.
+Operates the DOS base with UNIX functionality.
 Initial setup requires user and password lock.
 UNIX control functions can operate integrally.
 UNIX files and scripts operate in a subsystem.
@@ -126,7 +126,7 @@ Unspecified UNIX threads hosted by DOS thread.
 Embedded UNIX instances operate as per normal.
 The LSD (Live System Disk) drive and software:
 Loading LS-DOS requires a virtual or new disk.
-The LS-DOS main disk is chosen at initial boot.
+The LS-DOS main disk selected at initial boot.
 The default main disk letter will always be L.
 The main disk will always be named system LSD.
 Changing the LSD letter requires disks reboot.
@@ -149,7 +149,7 @@ L:\Users\Light\AppData\Local\
 L:\Users\Light\AppData\LocalLow\
 L:\Users\Light\AppData\Roaming\
 L:\Users\Light\Desktop\
-147 LS-DOS INITILIZATION INSTRUCTIONS
+147 LS-DOS INITIALIZATION INSTRUCTIONS
 148 LS-DOS SHARES DIRECTORIES AND SYSTEM32 EXECUTABLES
 the user shares uguests:  L:\users\guest\
 the user shares userpfl:  L:\users\light\
