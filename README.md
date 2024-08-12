@@ -1,3 +1,6 @@
+# LS-DOS
+Logic v1.0.2 for the LS-DOS build 19206
+
 ## Chain.cmd
 An example logic chain for executing an admin procedure in ``LSDOS``.
 
