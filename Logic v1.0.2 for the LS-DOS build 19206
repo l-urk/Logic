@@ -68,17 +68,17 @@ dsbl
 	syntax	dsbl ;
 chek
 	iste	(is the) 		attrib query		x y	?
-	dote	(do the) 		actionable			x z	?
-	wrte	(where the) 	location query		x d	?
+	dote	(do the) 		actionable		x z	?
+	wrte	(where the)		location query		x d	?
 	arte	(are the)		multi-attrib query	x^y	?
 	cnte	(can the)		action query		x z	?
-		logic 			check if specified dimensions has attribute
-		syntax			chek ;;te ;* ;^
-	aryu	(are you)		self query			y	?
-		logic			check if self has specified attribute	
+	logic 				check if specified dimensions has attribute
+	syntax				chek ;;te ;* ;^
+	aryu	(are you)		self query		y	?
+	logic				check if self has specified attribute	
 	cnyu	(can you)		self attrib query	z	?
-		logic			check if self can perform specified action 
-		syntax 			chek ;;yu ;^	
+	logic				check if self can perform specified action 
+	syntax 				chek ;;yu ;^	
 exec
 	logic 	execute a program
 	syntax	exec i:\;^\;^.;^
@@ -256,7 +256,7 @@ a defining user name of 5 characters
 and a set user charm of 2 characters
 reservations = 312, as 1 (rsuseradm) + 7 (rschrmlst) + 10 (dfchrmlst) + 294 (rsuserlst)
 rsuseradm = light
-rschrmlst = lk~bx~lw~kl~bb~kb~aa
+rschrmlst = lk~kl~lw~bx~bb~aa~kb
 dfchrmlst = u0~u9
 rsuserlst = 
 kbshi~nebpt~ghost~machi~papv2~armag~angel~
