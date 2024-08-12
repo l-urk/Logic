@@ -1,14 +1,3 @@
-Logic v1.0.2 for the LS-DOS build 19206.
-LS-DOS™ Light-Standard Disk Operating System -  Initial setup file for simulating LSDOS.
-Included modules:
-Virtual Voice Synthesis Module version1 (VVSMv1).
-SynLink™ WiBCI® Regulated-Device Edition.
-Features:
-Light-Standard (L-SL).
-LS-DOS™ Light-Standard Disk Operating System.
-Initial setup file for simulating LSDOS.
-The command logic (LS-DOS Version 1.0.2 and LOGIC Complete) comprises rules and procedures for how the computer system responds to user commands. It interprets and executes user instructions via the command-line interface, integrated into the system's operating software.
-All virtual console commands will be carried out and returned as a dual hybrid DOS command line system with full UNIX virtualization capabilities.
 ```
 0 LSD LOGIC COMPLETE
 df		=	defi	=	definition
