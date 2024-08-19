@@ -1,4 +1,4 @@
-# LSDOS
+# LS-DOS
 Logic v1.0.2 for the LSDOS build 19206
 
 ## Chain.cmd
