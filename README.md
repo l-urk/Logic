@@ -1,5 +1,7 @@
 # LS-DOS
-Logic v1.0.2 for the LSDOS build 19206
+Logic v1.0.2 for the LSDOS build 19206 - STABLE SUFFICIENT
+
+Logic v1.0.3 - STABLE COMPACT
 
 ## Chain.cmd
 An example logic chain for executing an admin procedure in ``LSDOS``.
